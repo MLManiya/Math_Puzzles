@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puzzle_Win_Page_Activity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_puzzle_win_page_puzzle_level_no_textview"
+        android:text="PUZZLE 1 COMPLETED"
+        android:gravity="center"
+        android:layout_weight="1.4"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_puzzle_win_page_win_imageview"
+        android:src="@drawable/trophy"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CONTINUE"
+        android:padding="@dimen/_2sdp"
+        android:id="@+id/activity_puzzle_win_page_continue_button"
+        android:textSize="@dimen/_15sdp"
+        android:layout_weight="1.4"
+        app:backgroundTint="@null"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MAIN MENU"
+        android:padding="@dimen/_2sdp"
+        android:id="@+id/activity_puzzle_win_page_mainmenu_button"
+        android:textSize="@dimen/_15sdp"
+        android:layout_weight="1.4"
+        app:backgroundTint="@null"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BUY PRO"
+        android:padding="@dimen/_2sdp"
+        android:id="@+id/activity_puzzle_win_page_buy_pro_button"
+        android:textSize="@dimen/_15sdp"
+        android:layout_weight="1.4"
+        app:backgroundTint="@null"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SHARE THIS PUZZLE"
+        android:gravity="center"
+        android:layout_weight="1.4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SHARE"
+        android:padding="@dimen/_2sdp"
+        android:id="@+id/activity_puzzle_win_page_share_button"
+        android:textSize="@dimen/_15sdp"
+        android:layout_weight="1.4"
+        app:backgroundTint="@null"
+        />
+</LinearLayout>

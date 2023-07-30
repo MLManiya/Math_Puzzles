@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:id="@+id/activity_puzzle_level_show_item_file_imageview_lock"
+        android:src="@drawable/lock"
+        android:foregroundGravity="center"/>
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:id="@+id/activity_puzzle_level_show_item_file_imageview_tick"
+        android:foregroundGravity="center"/>
+   <TextView
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_100sdp"
+       android:id="@+id/activity_puzzle_level_show_item_file_textview_level_no"
+    android:text="1"
+       android:gravity="center"
+    android:textSize="@dimen/_50sdp"
+       android:textStyle="bold"/>
+</RelativeLayout>
